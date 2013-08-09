@@ -13,7 +13,7 @@ namespace EvenFibonacciNumbers.Test
   using Microsoft.VisualStudio.TestTools.UnitTesting;
 
   [TestClass]
-  public class EvenFibonacciNumbers
+  public class MainTest
   {
     [TestMethod]
     public void FibonacciRecursiveCase1()
