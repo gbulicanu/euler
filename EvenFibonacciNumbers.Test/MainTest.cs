@@ -9,8 +9,8 @@
  */
 namespace EvenFibonacciNumbers.Test
 {
-  using System;
   using Microsoft.VisualStudio.TestTools.UnitTesting;
+  using System;
 
   [TestClass]
   public class MainTest
@@ -51,7 +51,7 @@ namespace EvenFibonacciNumbers.Test
     }
 
     [TestMethod]
-    public void FibonacciIterativeGivenNumberEquals34ThenResultGreaterThan4Millions()
+    public void FibonacciIterativeGivenNumberEquals34ThenReturnIsGreaterThan4Millions()
     {
       var result = FibonacciIterative(34L);
       Assert.IsTrue(result > 4000000L);
