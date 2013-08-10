@@ -1,4 +1,4 @@
 Euler
 =====
 
-My solutions for http://projecteuler.net/problems
+My Solutions for http://projecteuler.net/problems
