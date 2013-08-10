@@ -6,7 +6,7 @@
     <ProjectGuid>{FDB66676-0275-4789-995D-B83230463273}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>EvenFibonacciNumbers.Test.Test</RootNamespace>
+    <RootNamespace>EvenFibonacciNumbers.Test</RootNamespace>
     <AssemblyName>EvenFibonacciNumbers.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
