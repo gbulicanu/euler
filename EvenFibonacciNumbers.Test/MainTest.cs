@@ -18,36 +18,36 @@ namespace EvenFibonacciNumbers.Test
     [TestMethod]
     public void FibonacciRecursiveGivenNumberEquals0ThenReturn0()
     {
-      var result = FibonacciRecursive(0);
-      Assert.AreEqual(0, result);
+      var actual = FibonacciRecursive(0);
+      Assert.AreEqual(0, actual);
     }
 
     [TestMethod]
     public void FibonacciRecursiveGivenNumberEquals6ThenReturn8()
     {
-      var result = FibonacciRecursive(6);
-      Assert.AreEqual(8, result);
+      var actual = FibonacciRecursive(6);
+      Assert.AreEqual(8, actual);
     }
 
     [TestMethod]
     public void FibonacciIterativeGivenNumberEquals0ThenReturn0()
     {
-      var result = FibonacciIterative(0);
-      Assert.AreEqual(0, result);
+      var actaual = FibonacciIterative(0);
+      Assert.AreEqual(0, actaual);
     }
 
     [TestMethod]
     public void FibonacciIterativeGivenNumberEquals6ThenReturn8()
     {
-      var result = FibonacciIterative(6);
-      Assert.AreEqual(8, result);
+      var actual = FibonacciIterative(6);
+      Assert.AreEqual(8, actual);
     }
 
     [TestMethod]
     public void FibonacciRecursiveGivenNumberEquals34ThenResultGreaterThan4Millions()
     {
-      var result = FibonacciRecursive(34L);
-      Assert.IsTrue(result > 4000000L);
+      var actual = FibonacciRecursive(34L);
+      Assert.IsTrue(actual > 4000000L);
     }
 
     [TestMethod]
@@ -60,15 +60,15 @@ namespace EvenFibonacciNumbers.Test
     [TestMethod]
     public void FibonacciEvenSumGivenMaxEquals4MillionAndFibonacciFuncEqualsFibonacciRecursiveThenOutput()
     {
-      var result = FibonacciEvenSum(4000000L, FibonacciRecursive);
-      Console.WriteLine(result);
+      var actual = FibonacciEvenSum(4000000L, FibonacciRecursive);
+      Console.WriteLine(actual);
     }
 
     [TestMethod]
     public void FibonacciEvenSumGivenMaxEquals4MillionAndFibonacciFuncEqualsFibonacciIterativeThenOutput()
     {
-      var result = FibonacciEvenSum(4000000L, FibonacciIterative);
-      Console.WriteLine(result);
+      var actual = FibonacciEvenSum(4000000L, FibonacciIterative);
+      Console.WriteLine(actual);
     }
 
     private long FibonacciEvenSum(long max, Func<long, long> fibonacciFunc)
