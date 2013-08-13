@@ -32,8 +32,8 @@ namespace EvenFibonacciNumbers.Test
     [TestMethod]
     public void FibonacciIterativeGivenNumberEquals0ThenReturn0()
     {
-      var actaual = FibonacciIterative(0);
-      Assert.AreEqual(0, actaual);
+      var actual = FibonacciIterative(0);
+      Assert.AreEqual(0, actual);
     }
 
     [TestMethod]
