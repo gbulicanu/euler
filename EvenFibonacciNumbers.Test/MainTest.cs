@@ -53,8 +53,8 @@ namespace EvenFibonacciNumbers.Test
     [TestMethod]
     public void FibonacciIterativeGivenNumberEquals34ThenReturnIsGreaterThan4Millions()
     {
-      var result = FibonacciIterative(34L);
-      Assert.IsTrue(result > 4000000L);
+      var actual = FibonacciIterative(34L);
+      Assert.IsTrue(actual > 4000000L);
     }
 
     [TestMethod]
