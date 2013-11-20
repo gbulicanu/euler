@@ -80,7 +80,7 @@ namespace EvenFibonacciNumbers.Test
 
       while (sum <= max)
       {
-        fibonacci = FibonacciRecursive(number);
+        fibonacci = fibonacciFunc(number);
         if (fibonacci % 2 == 0)
         {
           sum += fibonacci;
